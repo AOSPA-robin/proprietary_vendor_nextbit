@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/nextbit/robin/proprietary/bin/rild:system/bin/rild \
     vendor/nextbit/robin/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/nextbit/robin/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/nextbit/robin/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
