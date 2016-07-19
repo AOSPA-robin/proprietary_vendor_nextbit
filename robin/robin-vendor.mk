@@ -279,16 +279,12 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/etc/permissions/qti_telephony_common.xml:system/etc/permissions/qti_telephony_common.xml \
     vendor/nextbit/robin/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/nextbit/robin/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/nextbit/robin/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/nextbit/robin/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/nextbit/robin/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/nextbit/robin/proprietary/framework/com.quicinc.wbc.jar:system/framework/com.quicinc.wbc.jar \
     vendor/nextbit/robin/proprietary/framework/com.quicinc.wbcservice.jar:system/framework/com.quicinc.wbcservice.jar \
     vendor/nextbit/robin/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/nextbit/robin/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/nextbit/robin/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/nextbit/robin/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
-    vendor/nextbit/robin/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/nextbit/robin/proprietary/lib64/hw/sensors.msm8992.so:system/lib64/hw/sensors.msm8992.so \
     vendor/nextbit/robin/proprietary/lib64/hw/wbc_hal.default.so:system/lib64/hw/wbc_hal.default.so \
     vendor/nextbit/robin/proprietary/lib64/libwbc_jni.so:system/lib64/libwbc_jni.so \
@@ -533,6 +529,13 @@ PRODUCT_PACKAGES += \
     imssettings \
     qcnvitems \
     qcrilhook
+
+PRODUCT_PACKAGES += \
+    com.qti.dpmframework \
+    tcmclient \
+    dpmapi \
+    com.qti.location.sdk
+
 endif
 
 -include vendor/extra/devices.mk
