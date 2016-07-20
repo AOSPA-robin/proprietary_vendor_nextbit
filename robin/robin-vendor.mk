@@ -270,8 +270,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/nextbit/robin/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/nextbit/robin/proprietary/etc/permissions/com.qualcomm.qti.Performance.xml:/system/etc/permissions/com.qualcomm.qti.Performance.xml \
-    vendor/nextbit/robin/proprietary/etc/permissions/com.quicinc.wbcservice.xml:system/etc/permissions/com.quicinc.wbcservice.xml \
-    vendor/nextbit/robin/proprietary/etc/permissions/com.quicinc.wbc.xml:system/etc/permissions/com.quicinc.wbc.xml \
     vendor/nextbit/robin/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/nextbit/robin/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/nextbit/robin/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
@@ -281,17 +279,11 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/nextbit/robin/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/nextbit/robin/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/nextbit/robin/proprietary/framework/com.quicinc.wbc.jar:system/framework/com.quicinc.wbc.jar \
-    vendor/nextbit/robin/proprietary/framework/com.quicinc.wbcservice.jar:system/framework/com.quicinc.wbcservice.jar \
     vendor/nextbit/robin/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/nextbit/robin/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/nextbit/robin/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/nextbit/robin/proprietary/lib64/hw/sensors.msm8992.so:system/lib64/hw/sensors.msm8992.so \
-    vendor/nextbit/robin/proprietary/lib64/hw/wbc_hal.default.so:system/lib64/hw/wbc_hal.default.so \
-    vendor/nextbit/robin/proprietary/lib64/libwbc_jni.so:system/lib64/libwbc_jni.so \
     vendor/nextbit/robin/proprietary/lib/hw/sensors.msm8992.so:system/lib/hw/sensors.msm8992.so \
-    vendor/nextbit/robin/proprietary/lib/hw/wbc_hal.default.so:system/lib/hw/wbc_hal.default.so \
-    vendor/nextbit/robin/proprietary/lib/libwbc_jni.so:system/lib/libwbc_jni.so \
     vendor/nextbit/robin/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/nextbit/robin/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/nextbit/robin/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
@@ -515,7 +507,6 @@ PRODUCT_PACKAGES += \
     libqmi \
     libthermalclient \
     libtime_genoff \
-    com.quicinc.wbcserviceapp \
     datastatusnotification \
     fastdormancy \
     QtiTelephonyService \
