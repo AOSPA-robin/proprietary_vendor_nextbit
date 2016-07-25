@@ -528,7 +528,8 @@ PRODUCT_PACKAGES += \
     dpmapi \
     com.qti.location.sdk \
     QPerformance \
-    libqti_performance
+    libqti_performance \
+    libqc-opt
 endif
 
 -include vendor/extra/devices.mk
@@ -544,10 +545,8 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
     vendor/nextbit/robin/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
     vendor/nextbit/robin/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
-    vendor/nextbit/robin/proprietary/vendor/lib64/libqc-opt.so:system/vendor/lib64/libqc-opt.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    vendor/nextbit/robin/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
 endif
