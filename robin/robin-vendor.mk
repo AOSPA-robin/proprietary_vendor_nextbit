@@ -517,7 +517,6 @@ PRODUCT_PACKAGES += \
     libqmi \
     libthermalclient \
     libtime_genoff \
-    a4wpservice \
     com.quicinc.wbcserviceapp \
     datastatusnotification \
     fastdormancy \
