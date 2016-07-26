@@ -532,8 +532,6 @@ PRODUCT_PACKAGES += \
     libqc-opt
 endif
 
--include vendor/extra/devices.mk
-ifneq ($(call is-qc-perf-target),true)
 PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/bin/iop:system/bin/iop \
     vendor/nextbit/robin/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
@@ -549,4 +547,3 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
-endif
