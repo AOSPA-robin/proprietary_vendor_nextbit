@@ -289,6 +289,12 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/nextbit/robin/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/nextbit/robin/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/nextbit/robin/proprietary/vendor/lib64/libmmhttpstack.so:/system/vendor/lib64/libmmhttpstack.so \
+    vendor/nextbit/robin/proprietary/vendor/lib64/libmmiipstreammmihttp.so:/system/vendor/lib64/libmmiipstreammmihttp.so \
+    vendor/nextbit/robin/proprietary/vendor/lib64/libmmipstreamaal.so:/system/vendor/lib64/libmmipstreamaal.so \
+    vendor/nextbit/robin/proprietary/vendor/lib64/libmmipstreamnetwork.so:/system/vendor/lib64/libmmipstreamnetwork.so \
+    vendor/nextbit/robin/proprietary/vendor/lib64/libmmipstreamsourcehttp.so:/system/vendor/lib64/libmmipstreamsourcehttp.so \
+    vendor/nextbit/robin/proprietary/vendor/lib64/libmmipstreamutils.so:/system/vendor/lib64/libmmipstreamutils.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -413,6 +419,12 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/nextbit/robin/proprietary/vendor/lib/hw/gatekeeper.msm8992.so:system/vendor/lib/hw/gatekeeper.msm8992.so \
     vendor/nextbit/robin/proprietary/vendor/lib/hw/keystore.msm8992.so:system/vendor/lib/hw/keystore.msm8992.so \
+    vendor/nextbit/robin/proprietary/vendor/lib/libmmhttpstack.so:/system/vendor/lib/libmmhttpstack.so \
+    vendor/nextbit/robin/proprietary/vendor/lib/libmmiipstreammmihttp.so:/system/vendor/lib/libmmiipstreammmihttp.so \
+    vendor/nextbit/robin/proprietary/vendor/lib/libmmipstreamaal.so:/system/vendor/lib/libmmipstreamaal.so \
+    vendor/nextbit/robin/proprietary/vendor/lib/libmmipstreamnetwork.so:/system/vendor/lib/libmmipstreamnetwork.so \
+    vendor/nextbit/robin/proprietary/vendor/lib/libmmipstreamsourcehttp.so:/system/vendor/lib/libmmipstreamsourcehttp.so \
+    vendor/nextbit/robin/proprietary/vendor/lib/libmmipstreamutils.so:/system/vendor/lib/libmmipstreamutils.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -536,6 +548,11 @@ PRODUCT_PACKAGES += \
     QPerformance \
     libqti_performance \
     libqc-opt
+
+PRODUCT_PACKAGES += \
+    libavenhancements \
+    libmmparser
+
 endif
 
 PRODUCT_COPY_FILES += \
