@@ -86,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/nextbit/robin/proprietary/lib64/libtfa98xx_hal.so:system/lib64/libtfa98xx_hal.so \
     vendor/nextbit/robin/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
-    vendor/nextbit/robin/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/nextbit/robin/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
     vendor/nextbit/robin/proprietary/lib/hw/fingerprint.msm8992.so:system/lib/hw/fingerprint.msm8992.so \
     vendor/nextbit/robin/proprietary/lib/libFIHNxp.so:system/lib/libFIHNxp.so \
@@ -98,7 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/lib/libmorpho_movie_stab4.so:system/lib/libmorpho_movie_stab4.so \
     vendor/nextbit/robin/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/nextbit/robin/proprietary/lib/libtfa98xx_hal.so:system/lib/libtfa98xx_hal.so \
-    vendor/nextbit/robin/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/nextbit/robin/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/nextbit/robin/proprietary/vendor/firmware/fpctzappfingerprint.b00:system/vendor/firmware/fpctzappfingerprint.b00 \
     vendor/nextbit/robin/proprietary/vendor/firmware/fpctzappfingerprint.b01:system/vendor/firmware/fpctzappfingerprint.b01 \
@@ -407,7 +405,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
-    vendor/nextbit/robin/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
     vendor/nextbit/robin/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/nextbit/robin/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/nextbit/robin/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -504,7 +501,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/nextbit/robin/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
-    vendor/nextbit/robin/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/nextbit/robin/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/nextbit/robin/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/nextbit/robin/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
