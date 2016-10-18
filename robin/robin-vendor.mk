@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/nextbit/robin/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/nextbit/robin/proprietary/bin/radish:system/bin/radish \
+	vendor/nextbit/robin/proprietary/bin/rild:system/bin/rild \
     vendor/nextbit/robin/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/nextbit/robin/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/nextbit/robin/proprietary/bin/time_daemon:system/bin/time_daemon \
