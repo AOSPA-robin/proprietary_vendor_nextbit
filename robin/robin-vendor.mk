@@ -13,10 +13,6 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
-    vendor/nextbit/robin/proprietary/app/datastatusnotification/datastatusnotification.apk:system/app/datastatusnotification/datastatusnotification.apk \
-    vendor/nextbit/robin/proprietary/app/fastdormancy/fastdormancy.apk:system/app/fastdormancy/fastdormancy.apk \
-    vendor/nextbit/robin/proprietary/app/shutdownlistener/shutdownlistener.apk:system/app/shutdownlistener/shutdownlistener.apk \
-    vendor/nextbit/robin/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
     vendor/nextbit/robin/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/nextbit/robin/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/nextbit/robin/proprietary/bin/cnd:system/bin/cnd \
@@ -175,12 +171,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/nextbit/robin/proprietary/lib/libtfa98xx_hal.so:system/lib/libtfa98xx_hal.so \
     vendor/nextbit/robin/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
-    vendor/nextbit/robin/proprietary/priv-app/CNEService/CNEService.apk:system/priv-app/CNEService/CNEService.apk \
-    vendor/nextbit/robin/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
-    vendor/nextbit/robin/proprietary/priv-app/dpmserviceapp/dpmserviceapp.apk:system/priv-app/dpmserviceapp/dpmserviceapp.apk \
-    vendor/nextbit/robin/proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
-    vendor/nextbit/robin/proprietary/vendor/app/ims/ims.apk:system/vendor/app/ims/ims.apk \
-    vendor/nextbit/robin/proprietary/vendor/app/imssettings/imssettings.apk:system/vendor/app/imssettings/imssettings.apk \
     vendor/nextbit/robin/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/nextbit/robin/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/nextbit/robin/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
@@ -540,12 +530,22 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
-    libril \
-    libqmiservices \
-    QtiTelephonyService \
-    QtiTetherService \
+    CNEService \
     com.qti.dpmframework \
     com.qti.location.sdk \
+    com.qualcomm.location \
+    datastatusnotification \
     dpmapi \
+    dpmserviceapp \
+    fastdormancy \
+    ims \
+    imssettings \
+    libril \
+    libqmiservices \
+    qcrilmsgtunnel \
     QPerformance \
-    tcmclient
+    QtiTelephonyService \
+    QtiTetherService \
+    shutdownlistener \
+    tcmclient \
+    TimeService \
