@@ -46,6 +46,13 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/nextbit/robin/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/nextbit/robin/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
+	vendor/nextbit/robin/proprietary/etc/acdbdata/NBQ/NBQ_Bluetooth_cal.acdb:system/etc/acdbdata/NBQ/NBQ_Bluetooth_cal.acdb \
+    vendor/nextbit/robin/proprietary/etc/acdbdata/NBQ/NBQ_General_cal.acdb:system/etc/acdbdata/NBQ/NBQ_General_cal.acdb \
+    vendor/nextbit/robin/proprietary/etc/acdbdata/NBQ/NBQ_Global_cal.acdb:system/etc/acdbdata/NBQ/NBQ_Global_cal.acdb \
+    vendor/nextbit/robin/proprietary/etc/acdbdata/NBQ/NBQ_Handset_cal.acdb:system/etc/acdbdata/NBQ/NBQ_Handset_cal.acdb \
+    vendor/nextbit/robin/proprietary/etc/acdbdata/NBQ/NBQ_Hdmi_cal.acdb:system/etc/acdbdata/NBQ/NBQ_Hdmi_cal.acdb \
+    vendor/nextbit/robin/proprietary/etc/acdbdata/NBQ/NBQ_Headset_cal.acdb:system/etc/acdbdata/NBQ/NBQ_Headset_cal.acdb \
+    vendor/nextbit/robin/proprietary/etc/acdbdata/NBQ/NBQ_Speaker_cal.acdb:system/etc/acdbdata/NBQ/NBQ_Speaker_cal.acdb \
     vendor/nextbit/robin/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/nextbit/robin/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/nextbit/robin/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
