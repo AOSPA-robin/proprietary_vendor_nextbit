@@ -77,6 +77,9 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/nextbit/robin/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/nextbit/robin/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+	vendor/nextbit/robin/proprietary/etc/flp.conf:system/etc/flp.conf \
+	vendor/nextbit/robin/proprietary/etc/izat.conf:system/etc/izat.conf \
+	vendor/nextbit/robin/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/nextbit/robin/proprietary/etc/nxp/settings/os/alarm/1/HQ_KS_13X18_DUMBO.eq:system/etc/nxp/settings/os/alarm/1/HQ_KS_13X18_DUMBO.eq \
     vendor/nextbit/robin/proprietary/etc/nxp/settings/os/alarm/1/HQ_KS_13X18_DUMBO.preset:system/etc/nxp/settings/os/alarm/1/HQ_KS_13X18_DUMBO.preset \
     vendor/nextbit/robin/proprietary/etc/nxp/settings/os/alarm/2/HQ_KS_13X18_DUMBO.eq:system/etc/nxp/settings/os/alarm/2/HQ_KS_13X18_DUMBO.eq \
@@ -132,11 +135,13 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/nextbit/robin/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/nextbit/robin/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
+	vendor/nextbit/robin/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/nextbit/robin/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/nextbit/robin/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/nextbit/robin/proprietary/etc/sensors/sensor_fih_def_nbq_EVT1C_qcomdev.conf:system/etc/sensors/sensor_fih_def_nbq_EVT1C_qcomdev.conf \
     vendor/nextbit/robin/proprietary/etc/sensors/sensor_fih_def_nbq_qcomdev.conf:system/etc/sensors/sensor_fih_def_nbq_qcomdev.conf \
     vendor/nextbit/robin/proprietary/etc/thermal-engine-8992.conf:system/etc/thermal-engine-8992.conf \
+	vendor/nextbit/robin/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/nextbit/robin/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/nextbit/robin/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/nextbit/robin/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
