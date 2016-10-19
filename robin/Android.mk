@@ -110,6 +110,18 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := gps.msm8992
+LOCAL_MODULE_OWNER := nextbit
+LOCAL_SRC_FILES_64 := proprietary/lib64/hw/gps.msm8992.so
+LOCAL_SRC_FILES_32 := proprietary/lib/hw/gps.msm8992.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_PATH_64 := $(TARGET_OUT_SHARED_LIBRARIES)/hw
+LOCAL_MODULE_PATH_32 := $(2ND_TARGET_OUT_SHARED_LIBRARIES)/hw
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libqmiservices
 LOCAL_MODULE_OWNER := nextbit
 LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libqmiservices.so
