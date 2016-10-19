@@ -148,10 +148,14 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
 	vendor/nextbit/robin/proprietary/lib64/hw/audio.primary.msm8992.so:system/lib64/hw/audio.primary.msm8992.so \
     vendor/nextbit/robin/proprietary/lib64/hw/fingerprint.msm8992.so:system/lib64/hw/fingerprint.msm8992.so \
+	vendor/nextbit/robin/proprietary/lib64/hw/gps.msm8992.so:system/lib64/hw/gps.default.so \
 	vendor/nextbit/robin/proprietary/lib64/hw/lights.msm8992.so:system/lib64/hw/lights.msm8992.so \
     vendor/nextbit/robin/proprietary/lib64/libFIHNxp.so:system/lib64/libFIHNxp.so \
     vendor/nextbit/robin/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
+	vendor/nextbit/robin/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/nextbit/robin/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
+	vendor/nextbit/robin/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
+	vendor/nextbit/robin/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/nextbit/robin/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/nextbit/robin/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/nextbit/robin/proprietary/lib64/libtfa98xx_hal.so:system/lib64/libtfa98xx_hal.so \
@@ -159,10 +163,13 @@ PRODUCT_COPY_FILES += \
 	vendor/nextbit/robin/proprietary/lib/hw/audio.primary.msm8992.so:system/lib/hw/audio.primary.msm8992.so \
     vendor/nextbit/robin/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
     vendor/nextbit/robin/proprietary/lib/hw/fingerprint.msm8992.so:system/lib/hw/fingerprint.msm8992.so \
+	vendor/nextbit/robin/proprietary/lib/hw/gps.msm8992.so:system/lib/hw/gps.default.so \
 	vendor/nextbit/robin/proprietary/lib/hw/lights.msm8992.so:system/lib/hw/lights.msm8992.so \
     vendor/nextbit/robin/proprietary/lib/libFIHNxp.so:system/lib/libFIHNxp.so \
     vendor/nextbit/robin/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/nextbit/robin/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+	vendor/nextbit/robin/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+	vendor/nextbit/robin/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/nextbit/robin/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/nextbit/robin/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/nextbit/robin/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
