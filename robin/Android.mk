@@ -28,6 +28,56 @@ LOCAL_CERTIFICATE := PRESIGNED
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := ConnectivityExt
+LOCAL_MODULE_OWNER := nextbit
+LOCAL_SRC_FILES := proprietary/framework/ConnectivityExt.jar
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_CERTIFICATE := PRESIGNED
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := QtiTelephonyServicelibrary
+LOCAL_MODULE_OWNER := nextbit
+LOCAL_SRC_FILES := proprietary/framework/qti-telephony-common.jar
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_CERTIFICATE := PRESIGNED
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := qti-telephony-common
+LOCAL_MODULE_OWNER := nextbit
+LOCAL_SRC_FILES := proprietary/framework/qti-telephony-common.jar
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_CERTIFICATE := PRESIGNED
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.quicinc.cne
+LOCAL_MODULE_OWNER := nextbit
+LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.jar
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_CERTIFICATE := PRESIGNED
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := cneapiclient
+LOCAL_MODULE_OWNER := nextbit
+LOCAL_SRC_FILES := proprietary/framework/cneapiclient.jar
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_CERTIFICATE := PRESIGNED
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := com.qti.location.sdk
 LOCAL_MODULE_OWNER := nextbit
 LOCAL_SRC_FILES := proprietary/framework/com.qti.location.sdk.jar
@@ -321,14 +371,13 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqti_performance
 LOCAL_MODULE_OWNER := nextbit
-LOCAL_SRC_FILES_64 := proprietary/lib64/libqti_performance.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libqti_performance.so
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libqti_performance.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libqti_performance.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH_64 := $(TARGET_OUT_SHARED_LIBRARIES)
-LOCAL_MODULE_PATH_32 := $(2ND_TARGET_OUT_SHARED_LIBRARIES)
 LOCAL_MULTILIB := both
+LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 endif

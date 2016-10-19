@@ -139,13 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/etc/sensors/sensor_fih_def_nbq_qcomdev.conf:system/etc/sensors/sensor_fih_def_nbq_qcomdev.conf \
     vendor/nextbit/robin/proprietary/etc/thermal-engine-8992.conf:system/etc/thermal-engine-8992.conf \
     vendor/nextbit/robin/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    vendor/nextbit/robin/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/nextbit/robin/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/nextbit/robin/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/nextbit/robin/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
-    vendor/nextbit/robin/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/nextbit/robin/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
-    vendor/nextbit/robin/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/nextbit/robin/proprietary/lib64/hw/audio.primary.msm8992.so:system/lib64/hw/audio.primary.msm8992.so \
     vendor/nextbit/robin/proprietary/lib64/hw/fingerprint.msm8992.so:system/lib64/hw/fingerprint.msm8992.so \
     vendor/nextbit/robin/proprietary/lib64/hw/gps.msm8992.so:system/lib64/hw/gps.default.so \
@@ -290,7 +283,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    vendor/nextbit/robin/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
@@ -516,7 +508,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/nextbit/robin/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/nextbit/robin/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/nextbit/robin/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
@@ -543,7 +534,10 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
+    cneapiclient \
     CNEService \
+    ConnectivityExt \
+    com.quicinc.cne \
     com.qti.dpmframework \
     com.qti.location.sdk \
     com.qualcomm.location \
@@ -555,9 +549,14 @@ PRODUCT_PACKAGES += \
     imssettings \
     libril \
     libqmiservices \
+    libqti_performance \
+    qcnvitems \
+    qcrilhook \
     qcrilmsgtunnel \
     QPerformance \
+    qti-telephony-common \
     QtiTelephonyService \
+    QtiTelephonyServicelibrary \
     QtiTetherService \
     shutdownlistener \
     tcmclient \
