@@ -77,6 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/nextbit/robin/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/nextbit/robin/proprietary/etc/lowi.conf:system/etc/lowi.conf \
+    vendor/nextbit/robin/proprietary/etc/qmi_fw.conf:system/etc/qmi_fw.conf \
     vendor/nextbit/robin/proprietary/etc/nxp/settings/os/alarm/1/HQ_KS_13X18_DUMBO.eq:system/etc/nxp/settings/os/alarm/1/HQ_KS_13X18_DUMBO.eq \
     vendor/nextbit/robin/proprietary/etc/nxp/settings/os/alarm/1/HQ_KS_13X18_DUMBO.preset:system/etc/nxp/settings/os/alarm/1/HQ_KS_13X18_DUMBO.preset \
     vendor/nextbit/robin/proprietary/etc/nxp/settings/os/alarm/2/HQ_KS_13X18_DUMBO.eq:system/etc/nxp/settings/os/alarm/2/HQ_KS_13X18_DUMBO.eq \
