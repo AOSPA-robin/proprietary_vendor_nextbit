@@ -142,7 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/etc/sensors/sensor_fih_def_nbq_qcomdev.conf:system/etc/sensors/sensor_fih_def_nbq_qcomdev.conf \
     vendor/nextbit/robin/proprietary/etc/thermal-engine-8992.conf:system/etc/thermal-engine-8992.conf \
     vendor/nextbit/robin/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    vendor/nextbit/robin/proprietary/lib64/hw/audio.primary.msm8992.so:system/lib64/hw/audio.primary.msm8992.so \
     vendor/nextbit/robin/proprietary/lib64/hw/fingerprint.msm8992.so:system/lib64/hw/fingerprint.msm8992.so \
     vendor/nextbit/robin/proprietary/lib64/hw/lights.msm8992.so:system/lib64/hw/lights.msm8992.so \
     vendor/nextbit/robin/proprietary/lib64/libFIHNxp.so:system/lib64/libFIHNxp.so \
@@ -156,7 +155,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/nextbit/robin/proprietary/lib64/libtfa98xx_hal.so:system/lib64/libtfa98xx_hal.so \
     vendor/nextbit/robin/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
-    vendor/nextbit/robin/proprietary/lib/hw/audio.primary.msm8992.so:system/lib/hw/audio.primary.msm8992.so \
     vendor/nextbit/robin/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
     vendor/nextbit/robin/proprietary/lib/hw/fingerprint.msm8992.so:system/lib/hw/fingerprint.msm8992.so \
     vendor/nextbit/robin/proprietary/lib/hw/lights.msm8992.so:system/lib/hw/lights.msm8992.so \
