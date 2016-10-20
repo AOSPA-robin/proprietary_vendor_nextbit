@@ -74,6 +74,7 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/nextbit/robin/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/nextbit/robin/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/nextbit/robin/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/nextbit/robin/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/nextbit/robin/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/nextbit/robin/proprietary/etc/lowi.conf:system/etc/lowi.conf \
