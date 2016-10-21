@@ -174,6 +174,7 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/nextbit/robin/proprietary/lib/libtfa98xx_hal.so:system/lib/libtfa98xx_hal.so \
     vendor/nextbit/robin/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
+    vendor/nextbit/robin/proprietary/lib/modules/core_ctl.ko:system/lib/modules/core_ctl.ko \
     vendor/nextbit/robin/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/nextbit/robin/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/nextbit/robin/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
