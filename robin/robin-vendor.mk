@@ -549,6 +549,7 @@ PRODUCT_PACKAGES += \
     libqmiservices \
     libqti_performance \
     libtime_genoff \
+    PA_Browser \
     qcnvitems \
     qcrilhook \
     qcrilmsgtunnel \
