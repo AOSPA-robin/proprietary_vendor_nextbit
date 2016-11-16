@@ -560,6 +560,7 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     ConnectivityExt \
     dpmapi \
+    PA_Browser \
     qcnvitems \
     qcrilhook \
     QPerformance \
