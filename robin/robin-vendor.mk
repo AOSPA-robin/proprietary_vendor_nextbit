@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/nextbit/robin/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/nextbit/robin/proprietary/bin/energy-awareness:system/bin/energy-awareness \
+    vendor/nextbit/robin/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/nextbit/robin/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/nextbit/robin/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/nextbit/robin/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
