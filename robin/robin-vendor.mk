@@ -265,6 +265,7 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
+    vendor/nextbit/robin/proprietary/vendor/lib64/libmmparser.so:system/vendor/lib64/libmmparser.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libmmparser_lite.so:system/vendor/lib64/libmmparser_lite.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
@@ -485,6 +486,7 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libmmparser_lite.so:system/vendor/lib/libmmparser_lite.so \
+    vendor/nextbit/robin/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/nextbit/robin/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
