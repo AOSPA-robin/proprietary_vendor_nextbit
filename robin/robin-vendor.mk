@@ -8,7 +8,7 @@
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
-# WITHvendor/nextbit/robin WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
@@ -183,6 +183,12 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/nextbit/robin/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/nextbit/robin/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+	vendor/nextbit/robin/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
+    vendor/nextbit/robin/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
+    vendor/nextbit/robin/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
+    vendor/nextbit/robin/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
+    vendor/nextbit/robin/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
+    vendor/nextbit/robin/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
     vendor/nextbit/robin/proprietary/vendor/firmware/fpctzappfingerprint.b00:system/vendor/firmware/fpctzappfingerprint.b00 \
     vendor/nextbit/robin/proprietary/vendor/firmware/fpctzappfingerprint.b01:system/vendor/firmware/fpctzappfingerprint.b01 \
     vendor/nextbit/robin/proprietary/vendor/firmware/fpctzappfingerprint.b02:system/vendor/firmware/fpctzappfingerprint.b02 \
