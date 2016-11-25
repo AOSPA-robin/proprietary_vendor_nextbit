@@ -79,7 +79,7 @@
     <RecheckThr>1.1</RecheckThr>
 
     <!-- Decision made. 0 false, 1 true -->
-    <DNsrmEnable>1</DNsrmEnable>
+    <DNsrmEnable>0</DNsrmEnable>
   </Nsrm>
   <!-- The next element is for reference only to show how to config NSRM
        parameters for another version that may be supported on the device -->

@@ -163,7 +163,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/lib/libnfc-nci.so:system/lib/libnfc-nci.so \
     vendor/nextbit/robin/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/nextbit/robin/proprietary/lib/libqti-iop.so:system/lib/libqti-iop.so \
-    vendor/nextbit/robin/proprietary/lib/librilqmiservices.so:system/lib/librilqmiservices.so \
     vendor/nextbit/robin/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/nextbit/robin/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/nextbit/robin/proprietary/lib/libtfa98xx_hal.so:system/lib/libtfa98xx_hal.so \
@@ -182,7 +181,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/lib64/libnfc_ndef.so:system/lib64/libnfc_ndef.so \
     vendor/nextbit/robin/proprietary/lib64/libnfc-nci.so:system/lib64/libnfc-nci.so \
     vendor/nextbit/robin/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
-    vendor/nextbit/robin/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
     vendor/nextbit/robin/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/nextbit/robin/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
     vendor/nextbit/robin/proprietary/lib64/libtfa98xx_hal.so:system/lib64/libtfa98xx_hal.so \
@@ -478,6 +476,7 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
     vendor/nextbit/robin/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/nextbit/robin/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
+    vendor/nextbit/robin/proprietary/vendor/lib/liblowi_wifihal_nl.so:system/vendor/lib/liblowi_wifihal_nl.so \
     vendor/nextbit/robin/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libmare-1.0.0.so:system/vendor/lib/libmare-1.0.0.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libmare-cpu-1.0.0.so:system/vendor/lib/libmare-cpu-1.0.0.so \
@@ -639,6 +638,7 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/nextbit/robin/proprietary/vendor/lib/librilqmiservices.so:system/vendor/lib/librilqmiservices.so \
     vendor/nextbit/robin/proprietary/vendor/lib/librmp.so:system/vendor/lib/librmp.so \
     vendor/nextbit/robin/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/nextbit/robin/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
@@ -813,6 +813,7 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
+    vendor/nextbit/robin/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libmare-1.0.0.so:system/vendor/lib64/libmare-1.0.0.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libmare-cpu-1.0.0.so:system/vendor/lib64/libmare-cpu-1.0.0.so \
@@ -879,6 +880,7 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
+    vendor/nextbit/robin/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/librmp.so:system/vendor/lib64/librmp.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
