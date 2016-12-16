@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/nextbit/robin/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/nextbit/robin/proprietary/bin/energy-awareness:system/bin/energy-awareness \
+    vendor/nextbit/robin/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/nextbit/robin/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/nextbit/robin/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/nextbit/robin/proprietary/bin/imscmservice:system/bin/imscmservice \
@@ -184,8 +185,12 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/nextbit/robin/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
     vendor/nextbit/robin/proprietary/lib64/libtfa98xx_hal.so:system/lib64/libtfa98xx_hal.so \
+    vendor/nextbit/robin/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
+    vendor/nextbit/robin/proprietary/vendor/bin/chamomile_provision:system/vendor/bin/chamomile_provision \
+    vendor/nextbit/robin/proprietary/vendor/bin/fidodaemon:system/vendor/bin/fidodaemon \
     vendor/nextbit/robin/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/nextbit/robin/proprietary/vendor/bin/qti:system/vendor/bin/qti \
+    vendor/nextbit/robin/proprietary/vendor/bin/sampleauthdaemon:system/vendor/bin/sampleauthdaemon \
     vendor/nextbit/robin/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/nextbit/robin/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/nextbit/robin/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
@@ -430,6 +435,7 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+    vendor/nextbit/robin/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libextendedremotedisplay.so:system/vendor/lib/libextendedremotedisplay.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
@@ -699,11 +705,14 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
+    vendor/nextbit/robin/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/nextbit/robin/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/nextbit/robin/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/nextbit/robin/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/nextbit/robin/proprietary/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so \
     vendor/nextbit/robin/proprietary/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so \
     vendor/nextbit/robin/proprietary/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so:system/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so \
@@ -773,6 +782,7 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
+    vendor/nextbit/robin/proprietary/vendor/lib64/libEGL_adreno.s:system/vendor/lib64/libEGL_adreno.s \
     vendor/nextbit/robin/proprietary/vendor/lib64/libExtendedExtractor.so:system/vendor/lib64/libExtendedExtractor.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libextendedremotedisplay.so:system/vendor/lib64/libextendedremotedisplay.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libFidoCrypto.so:system/vendor/lib64/libFidoCrypto.so \
@@ -936,6 +946,7 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+    vendor/nextbit/robin/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
