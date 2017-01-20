@@ -26,6 +26,7 @@
 -vendor/lib/libqmiservices.so
 -vendor/lib64/libqmiservices.so
 bin/adsprpcd
+bin/ATFWD-daemon
 bin/btnvtool
 bin/cnd
 bin/cnss-daemon

@@ -14,6 +14,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/nextbit/robin/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/nextbit/robin/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/nextbit/robin/proprietary/bin/cnd:system/bin/cnd \
     vendor/nextbit/robin/proprietary/bin/cnss_diag:system/bin/cnss_diag \
