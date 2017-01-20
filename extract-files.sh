@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Copyright (C) 2016 PAxNextbit
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ VENDOR=robin
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
-ROOT="$MY_DIR"/../../..
+CM_ROOT="$MY_DIR"/../../..
 
 HELPER=extract_utils.sh
 if [ ! -f "$HELPER" ]; then
@@ -50,7 +50,7 @@ else
 fi
 
 # Initialize the helper
-setup_vendor "$DEVICE" "$VENDOR" "$ROOT"
+setup_vendor "$DEVICE" "$VENDOR" "$CM_ROOT"
 
 #extract "$MY_DIR"/proprietary-files-qc.txt "$SRC"
 #extract "$MY_DIR"/proprietary-files-qc-perf.txt "$SRC"

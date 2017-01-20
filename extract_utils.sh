@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Copyright (C) 2016 PAxNextbit
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -45,7 +45,7 @@ trap cleanup EXIT INT TERM ERR
 #
 # $1: device name
 # $2: vendor name
-# $3: vendor root directory
+# $3: CM root directory
 # $4: is common device - optional, default to false
 # $5: cleanup - optional, default to true
 # $6: custom vendor makefile name - optional, default to false
@@ -66,15 +66,15 @@ function setup_vendor() {
         exit 1
     fi
 
-    export ROOT=.
-    if [ ! -d "$ROOT" ]; then
-        echo "\$ROOT must be set and valid before including this script!"
+    export CM_ROOT=.
+    if [ ! -d "$CM_ROOT" ]; then
+        echo "\$CM_ROOT must be set and valid before including this script!"
         exit 1
     fi
 
-    export OUTDIR=vendor/nextbit/robin
-    if [ ! -d "$ROOT/$OUTDIR" ]; then
-        mkdir -p "$ROOT/$OUTDIR"
+    export OUTDIR=out
+    if [ ! -d "$CM_ROOT/$OUTDIR" ]; then
+        mkdir -p "$CM_ROOT/$OUTDIR"
     fi
 
     VNDNAME="$6"
@@ -82,9 +82,9 @@ function setup_vendor() {
         VNDNAME="$DEVICE"
     fi
 
-    export PRODUCTMK="$ROOT"/robin/"$VNDNAME"-vendor.mk
-    export ANDROIDMK="$ROOT"/robin/Android.mk
-    export BOARDMK="$ROOT"/robin/BoardConfigVendor.mk
+    export PRODUCTMK="$CM_ROOT"/"$OUTDIR"/"$VNDNAME"-vendor.mk
+    export ANDROIDMK="$CM_ROOT"/"$OUTDIR"/Android.mk
+    export BOARDMK="$CM_ROOT"/"$OUTDIR"/BoardConfigVendor.mk
 
     if [ "$4" == "true" ] || [ "$4" == "1" ]; then
         COMMON=1
@@ -636,7 +636,7 @@ function get_file() {
 # Convert apk|jar .odex in the corresposing classes.dex
 #
 function oat2dex() {
-    local PA_TARGET="$1"
+    local CM_TARGET="$1"
     local OEM_TARGET="$2"
     local SRC="$3"
     local TARGET=
@@ -664,11 +664,11 @@ function oat2dex() {
         FULLY_DEODEXED=1 && return 0 # system is fully deodexed, return
     fi
 
-    if [ ! -f "$PA_TARGET" ]; then
+    if [ ! -f "$CM_TARGET" ]; then
         return;
     fi
 
-    if grep "classes.dex" "$PA_TARGET" >/dev/null; then
+    if grep "classes.dex" "$CM_TARGET" >/dev/null; then
         return 0 # target apk|jar is already odexed, return
     fi
 
@@ -679,7 +679,7 @@ function oat2dex() {
 
         if get_file "$OAT" "$TMPDIR" "$SRC"; then
             java -jar "$BAKSMALIJAR" deodex -o "$TMPDIR/dexout" -b "$BOOTOAT" -d "$TMPDIR" "$TMPDIR/$(basename "$OAT")"
-        elif [[ "$PA_TARGET" =~ .jar$ ]]; then
+        elif [[ "$CM_TARGET" =~ .jar$ ]]; then
             # try to extract classes.dex from boot.oat for framework jars
             java -jar "$BAKSMALIJAR" deodex -o "$TMPDIR/dexout" -b "$BOOTOAT" -d "$TMPDIR" -e "/$OEM_TARGET" "$BOOTOAT"
         else
@@ -807,7 +807,7 @@ function extract() {
         local DEST="$OUTPUT_DIR/$FROM"
 
         if [ "$SRC" = "adb" ]; then
-            # Try PA target first
+            # Try CM target first
             adb pull "/$TARGET" "$DEST"
             # if file does not exist try OEM target
             if [ "$?" != "0" ]; then
@@ -817,7 +817,7 @@ function extract() {
             # Try OEM target first
             if [ -f "$SRC/$FILE" ]; then
                 cp "$SRC/$FILE" "$DEST"
-            # if file does not exist try PA target
+            # if file does not exist try CM target
             elif [ -f "$SRC/$TARGET" ]; then
                 cp "$SRC/$TARGET" "$DEST"
             else
@@ -898,7 +898,7 @@ function extract_firmware() {
     local FILELIST=( ${PRODUCT_COPY_FILES_LIST[@]} )
     local COUNT=${#FILELIST[@]}
     local SRC="$2"
-    local OUTPUT_DIR="$ROOT"/"$OUTDIR"/radio
+    local OUTPUT_DIR="$CM_ROOT"/"$OUTDIR"/radio
 
     if [ "$VENDOR_RADIO_STATE" -eq "0" ]; then
         echo "Cleaning firmware output directory ($OUTPUT_DIR).."
