@@ -636,7 +636,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/lib/libqti-gt.so:system/vendor/lib/libqti-gt.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/nextbit/robin/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/nextbit/robin/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/nextbit/robin/proprietary/vendor/lib/librcc.so:system/vendor/lib/librcc.so \
     vendor/nextbit/robin/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
@@ -882,7 +881,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/vendor/lib64/libqti-gt.so:system/vendor/lib64/libqti-gt.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    vendor/nextbit/robin/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
     vendor/nextbit/robin/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
@@ -965,7 +963,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     dpmserviceapp \
     qcrilmsgtunnel \
-    QtiTetherService \
     ims \
     imssettings \
     cneapiclient \
