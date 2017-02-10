@@ -161,7 +161,7 @@ lib/hw/camera.msm8992.so
 lib/hw/fingerprint.msm8992.so
 lib/hw/gps.default.so
 lib/hw/lights.msm8992.so
-lib/hw/nfc_nci.msm8992.so
+lib/hw/nfc_nci.pn54x.so
 lib/libFIHNxp.so
 lib/lib_fpc_tac_shared.so
 lib/libloc_api_v02.so
@@ -184,7 +184,7 @@ lib/modules/core_ctl.ko
 lib64/hw/fingerprint.msm8992.so
 lib64/hw/gps.default.so
 lib64/hw/lights.msm8992.so
-lib64/hw/nfc_nci.msm8992.so
+lib64/hw/nfc_nci.pn54x.so
 lib64/libFIHNxp.so
 lib64/lib_fpc_tac_shared.so
 lib64/libgps.utils.so
