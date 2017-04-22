@@ -238,17 +238,6 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE        := PA_Browser
-LOCAL_SRC_FILES     := proprietary/app/PA_Browser/PA_Browser.apk
-LOCAL_MODULE_TAGS   := optional
-LOCAL_MODULE_CLASS  := APPS
-LOCAL_CERTIFICATE   := platform
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_OVERRIDES_PACKAGES := Browser Browser2
-LOCAL_MULTILIB := both
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := qti-telephony-common
 LOCAL_MODULE_OWNER := nextbit
 LOCAL_SRC_FILES := proprietary/framework/qti-telephony-common.jar
