@@ -67,8 +67,19 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/nextbit/robin/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/nextbit/robin/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/nextbit/robin/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
+    vendor/nextbit/robin/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
+    vendor/nextbit/robin/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
+    vendor/nextbit/robin/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
+    vendor/nextbit/robin/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
+    vendor/nextbit/robin/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
+    vendor/nextbit/robin/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
+    vendor/nextbit/robin/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
+    vendor/nextbit/robin/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
+    vendor/nextbit/robin/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/nextbit/robin/proprietary/etc/firmware/TP_Firmware_nbq_ebbg.img:system/etc/firmware/TP_Firmware_nbq_ebbg.img \
     vendor/nextbit/robin/proprietary/etc/firmware/TP_Firmware_nbq_ebbg_V29.img:system/etc/firmware/TP_Firmware_nbq_ebbg_V29.img \
+    vendor/nextbit/robin/proprietary/etc/firmware/TP_Firmware_nbq_ebbg_V35.img:system/etc/firmware/TP_Firmware_nbq_ebbg_V35.img \
     vendor/nextbit/robin/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/nextbit/robin/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/nextbit/robin/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \

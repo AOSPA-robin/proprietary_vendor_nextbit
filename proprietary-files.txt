@@ -73,6 +73,7 @@ etc/dpm/dpm.conf
 etc/dpm/nsrm/NsrmConfiguration.xml
 etc/firmware/TP_Firmware_nbq_ebbg.img
 etc/firmware/TP_Firmware_nbq_ebbg_V29.img
+etc/firmware/TP_Firmware_nbq_ebbg_V35.img
 etc/firmware/a420_pfp.fw
 etc/firmware/a420_pm4.fw
 etc/firmware/cpp_firmware_v1_1_1.fw
@@ -81,6 +82,16 @@ etc/firmware/cpp_firmware_v1_2_0.fw
 etc/firmware/cpp_firmware_v1_4_0.fw
 etc/firmware/cpp_firmware_v1_6_0.fw
 etc/firmware/cpp_firmware_v1_8_0.fw
+etc/firmware/nvm_tlv_1.3.bin
+etc/firmware/nvm_tlv_2.1.bin
+etc/firmware/nvm_tlv_3.0.bin
+etc/firmware/nvm_tlv_3.2.bin
+etc/firmware/nvm_tlv.bin
+etc/firmware/rampatch_tlv_1.3.tlv
+etc/firmware/rampatch_tlv_3.0.tlv
+etc/firmware/rampatch_tlv.img
+etc/firmware/rampatch_tlv_2.1.tlv
+etc/firmware/rampatch_tlv_3.2.tlv
 etc/firmware/venus.b00
 etc/firmware/venus.b01
 etc/firmware/venus.b02
