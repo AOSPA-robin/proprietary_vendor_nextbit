@@ -147,7 +147,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
     vendor/nextbit/robin/proprietary/lib/hw/fingerprint.msm8992.so:system/lib/hw/fingerprint.msm8992.so \
     vendor/nextbit/robin/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/nextbit/robin/proprietary/lib/hw/lights.msm8992.so:system/lib/hw/lights.msm8992.so \
     vendor/nextbit/robin/proprietary/lib/libFIHNxp.so:system/lib/libFIHNxp.so \
     vendor/nextbit/robin/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/nextbit/robin/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
@@ -166,7 +165,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/lib/modules/core_ctl.ko:system/lib/modules/core_ctl.ko \
     vendor/nextbit/robin/proprietary/lib64/hw/fingerprint.msm8992.so:system/lib64/hw/fingerprint.msm8992.so \
     vendor/nextbit/robin/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
-    vendor/nextbit/robin/proprietary/lib64/hw/lights.msm8992.so:system/lib64/hw/lights.msm8992.so \
     vendor/nextbit/robin/proprietary/lib64/hw/nfc_nci.pn54x.default.so:system/lib64/hw/nfc_nci.pn54x.default.so \
     vendor/nextbit/robin/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/nextbit/robin/proprietary/lib64/libFIHNxp.so:system/lib64/libFIHNxp.so \
