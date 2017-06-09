@@ -178,7 +178,6 @@ lib/libtfa98xx_hal.so
 lib/modules/core_ctl.ko
 lib64/hw/fingerprint.msm8992.so
 lib64/hw/gps.default.so
-lib64/hw/nfc_nci.pn54x.default.so
 lib64/libFIHNxp.so
 lib64/lib_fpc_tac_shared.so
 lib64/libgps.utils.so
@@ -186,9 +185,6 @@ lib64/libloc_api_v02.so
 lib64/libloc_core.so
 lib64/libloc_ds_api.so
 lib64/libloc_eng.so
-lib64/libnfc-nci.so
-lib64/libnfc_nci_jni.so
-lib64/libnfc_ndef.so
 lib64/libqti-iop.so
 lib64/libstagefright_soft_flacdec.so
 lib64/libtfa98xx.so

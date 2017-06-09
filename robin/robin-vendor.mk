@@ -165,7 +165,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/lib/modules/core_ctl.ko:system/lib/modules/core_ctl.ko \
     vendor/nextbit/robin/proprietary/lib64/hw/fingerprint.msm8992.so:system/lib64/hw/fingerprint.msm8992.so \
     vendor/nextbit/robin/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
-    vendor/nextbit/robin/proprietary/lib64/hw/nfc_nci.pn54x.default.so:system/lib64/hw/nfc_nci.pn54x.default.so \
     vendor/nextbit/robin/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/nextbit/robin/proprietary/lib64/libFIHNxp.so:system/lib64/libFIHNxp.so \
     vendor/nextbit/robin/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
@@ -173,9 +172,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/robin/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/nextbit/robin/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/nextbit/robin/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/nextbit/robin/proprietary/lib64/libnfc_nci_jni.so:system/lib64/libnfc_nci_jni.so \
-    vendor/nextbit/robin/proprietary/lib64/libnfc_ndef.so:system/lib64/libnfc_ndef.so \
-    vendor/nextbit/robin/proprietary/lib64/libnfc-nci.so:system/lib64/libnfc-nci.so \
     vendor/nextbit/robin/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/nextbit/robin/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/nextbit/robin/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
