@@ -1,2 +1,0 @@
-robin/proprietary/vendor/lib/libEGL_adreno.so
-robin/proprietary/vendor/lib64/libEGL_adreno.so
