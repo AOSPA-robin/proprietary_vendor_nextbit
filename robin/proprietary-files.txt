@@ -2,6 +2,7 @@
 -app/datastatusnotification/datastatusnotification.apk
 -app/fastdormancy/fastdormancy.apk
 -app/shutdownlistener/shutdownlistener.apk
+-app/SimSettings/SimSettings.apk
 -framework/ConnectivityExt.jar
 -framework/QPerformance.jar
 -framework/QtiTelephonyServicelibrary.jar

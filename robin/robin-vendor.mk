@@ -972,4 +972,5 @@ PRODUCT_PACKAGES += \
     QPerformance \
     qti-telephony-common \
     QtiTelephonyServicelibrary \
-    tcmclient
+    tcmclient \
+    SimSettings
